@@ -1,0 +1,36 @@
+@import url();
+*{
+    margin: 0;
+    
+}
+body{
+    padding: 10px ;
+    background-color: gray;
+    text-decoration: none;
+    display: flex;
+}
+
+header{
+    background-color: red;
+}
+.coisaboa{
+    background-color: purple;
+}
+#div{
+    background-color: brown;
+}
+h1{
+    font-size: 100px;
+    background-color: aqua;
+    padding: 0px 10px;
+} 
+nav{
+    background-color: green;
+    padding-left: 10px;
+    text-align: center;
+}
+main{
+    flex-basis: auto;
+    width: 500px;
+    background-color: purple;
+}
