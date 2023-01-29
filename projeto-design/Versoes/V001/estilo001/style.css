@@ -12,14 +12,14 @@
 
 :root{
     --marrom-claro: #f5deb3;
-    --marrom-escuro: #3d342e;
-    --preto-cafe: #0D0B06;
+    --marrom-escuro: #ac7b7d;
+    --preto-cafe: #0D160b;
     --fonte1: 'Mulish', Arial, 'Roboto', sans-serif;
     --fonte2: 'Vollkorn', Verdana, serif;
 }
 
 header{
-    background-color: var(--preto-cafe);
+    background-color: var(--marrom-escuro);
     /*padding: 10px 0px 1px 20px;*/
     margin: auto;
     color: white;
@@ -33,7 +33,7 @@ h1{
 }
 
 main{
-    max-width: 75%;
+    max-width:980px;
     color: white;
     /*background-color: #977390;*/
     /*margin: auto;*/
@@ -67,8 +67,8 @@ h3{
 }
 
 img{
+    margin: auto;
     width: 100%;
-    display: block;
 }
 
 .links{
@@ -80,12 +80,14 @@ img{
     font-weight: bold;
     color: var(--marrom-claro);
 }
+
 footer>p{
     font-family: Arial, Helvetica, sans-serif; 
     font-weight: bolder;  
     color: white;
     padding: 5px;
 }
+
 footer{
     align-self: center;
     text-align: center; 
@@ -94,11 +96,12 @@ footer{
     padding: 1px;
     font-size: 0.6em
 }
+
 nav{
 
     font-weight: normal;
     text-align: center;
-    background-color: var(--marrom-escuro); 
+    background-color: var(--preto-cafe); 
 }
 
 .navigation{
@@ -110,9 +113,11 @@ nav{
     color: white;
     font-weight: 300;
 }
+
 .navigation:hover {
     font-weight: 700;
 }
+
 body{
     background-color: var(--marrom-claro); 
     margin: 0px
@@ -123,15 +128,6 @@ body{
     margin: auto;
     padding: 100px;
 }
-section{ 
-    border-radius: 10px;
-    background-color: var(--marrom-escuro);
-    width: auto;
-    margin: auto;
-    padding: 0%;
-    text-align: justify;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
-}
 
 .texto{
     text-indent: 15px;
@@ -140,25 +136,15 @@ section{
     max-width: 980px;
     display: block;
 }
+
 .video{
     /*background-color: red;*/
     margin: 10px auto auto auto;
     
     display: block;
-    position: relative;
-    padding-bottom: 39.6%;
 
 }
-iframe{
-    /*background-color: yellow;*/
-    margin: auto;
-    display:block;
-    position: absolute;
-    top: 0%;
-    left: 15%;
-    height: 100%;
-    width: 70%;
-}
+
 p{
     margin: 0px 20px;
     font-family: var(--fonte1);
@@ -167,11 +153,22 @@ p{
     font-size: 1.2em;
     padding: 10px;
 }
+
 .abertura{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 ul, ol{
-    padding-left: 50px;
+    background-color: #977390;
     list-style-position: inside;
+}
+
+section{ 
+    border-radius: 10px;
+    background-color: var(--marrom-escuro);
+    width: auto;
+    margin: auto;
+    padding: 0%;
+    text-align: justify;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
 }
