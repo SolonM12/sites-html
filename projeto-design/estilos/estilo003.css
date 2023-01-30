@@ -36,6 +36,11 @@ h1{
     
 }
 
+#atual{
+
+    background-color: rgba(13, 11, 6, 0.400);
+}
+
 #navigation{
     text-align: center;
     background-color: var(--marrom-escuro);
@@ -53,6 +58,7 @@ h1{
 #navigation a:hover{
     font-weight: 500;
 }
+
 
 main{
     max-width: 100%;

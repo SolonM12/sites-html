@@ -55,6 +55,10 @@ h1{
     font-weight: 700;
 }
 
+nav> a#atual{
+    background-color:rgba(13, 11, 6, 0.400);
+    font-weight: 600; 
+}
 
 main{
     max-width: 75%;
