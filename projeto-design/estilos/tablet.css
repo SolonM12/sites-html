@@ -145,8 +145,7 @@ iframe{
 }
 
 .imagem{
-    max-width: 70%;
-    max-height: 461.5px;
+    width: 70%;
     margin: auto;
     display: block;
 }

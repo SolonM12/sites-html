@@ -96,6 +96,10 @@ div{
     margin: 10px auto;
 }
 
+.paragrafo{
+    text-indent: 10px;
+}
+
 ul, ol{
     width: 100%;
     list-style-position: inside;
