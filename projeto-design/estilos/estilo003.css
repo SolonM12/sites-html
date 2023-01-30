@@ -163,6 +163,7 @@ footer{
 footer > p{
     font: normal 200 40% var(--fonte2);
     padding: 15px 0px;
+    text-align: center;
 }
 
 hr{

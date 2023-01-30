@@ -181,6 +181,7 @@ footer{
 footer > p{
     font: normal 200 1em Arial, Helvetica, Sans-serif;
     padding: 15px 0px;
+    text-align: center;
 }
 
 hr{
