@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="style/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <body cz-shortcut-listen="true">
+        <header>
+            <h1>Olá, Mundo</h1>
+        </header>
+        <main>
+            <h2 id="abel">Aprendendo a usar o DOM</h2>
+            
+            <textarea name="" id="caixa" cols="30" rows="10" onkeyup="enviar()" placeholder="Escreva alguma coisa..."></textarea>
+            
+            <label for="caixa"><button onclick="enviar()">enviar</button></label>
+            
+            <p><strong>Dom</strong> em Javascript</p>
+            
+            <article>
+                <h1 id="res"></h1>
+            </article>
+            
+            <div class="botao" onclick="Clicou()"> clique </div>
+            <h2 id="Variavel"></h2>
+            
+            <div class="botao">
+                <p id="lista"></p>
+                <input type="text" name="" id="L">
+                <label for="L"><button onclick="adicionar()">adicionar</button></label>
+            </div>
+        </main>
+        <footer>
+            
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+</body>
+</html>

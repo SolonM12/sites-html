@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    text-align: center;
+    margin: 20px auto;
+    background-color: grey;
+    color: #fff;
+}
+article{
+    background-color: red;
+    width: 70%;
+    margin: 50px auto;
+}
+.botao{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    margin: 20px auto;
+}
+p{
+    background-color: green;
+    text-align: center;
+    padding: 30px auto;
+}
